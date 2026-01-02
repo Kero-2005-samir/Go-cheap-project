@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Go cheap</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/all.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="images/images (1).jpeg" type="image/x-icon">
+  <script src="javaScript/bootstrap.bundle.js"></script>
+</head>
+
+<body>
+  <!-- loading page -->
+  <div class="preloader" id="preloader">
+    <div class="logo">
+      <img src="images/Black and White Automotive Logo.png" alt="" class="log">
+      <img src="images/loader car drift.gif" alt="" class="gif">
+    </div>
+    <div class="car-track">
+      <div class="progress-bar">
+        <span></span>
+      </div>
+    </div>
+    <p>Loading...</p>
+  </div>
+  <div class="container" id="container">
+
+    <!-- Login -->
+    <form action="" method="post" id="loginForm">
+      <div class="form-container login">
+        <h2>Login</h2>
+        <!-- login -->
+        <div class="form-floating mb-3">
+          <input type="email" class="form-control bg-transparent inp" id="loginEmail" placeholder="name@example.com"
+            required>
+          <label for="loginEmail" class="text-dark">Email address</label>
+        </div>
+        <div class="form-floating mb-3">
+          <input type="password" class="form-control bg-transparent inp" id="loginPassword" placeholder="password"
+            required>
+          <label for="loginPassword" class="text-dark">Password</label>
+        </div>
+        <button type="submit">Login</button>
+      </div>
+    </form>
+
+    <!-- Register -->
+    <form action="" method="post" id="registerForm">
+      <div class="form-container register">
+        <h2>Register</h2>
+        <!-- register -->
+        <div class="form-floating mb-3">
+          <input type="text" class="form-control bg-transparent inp" id="registerName" placeholder="username" required>
+          <label for="registerName" class="text-dark">Name</label>
+        </div>
+
+        <div class="form-floating mb-3">
+          <input type="email" class="form-control bg-transparent inp" id="registerEmail" placeholder="name@example.com" required>
+          <label for="registerEmail" class="text-dark">Email address</label>
+        </div>
+
+        <div class="form-floating mb-3">
+          <input type="tel" class="form-control bg-transparent inp" id="registerPhone" placeholder="phone"
+            maxlength="11" required>
+          <label for="registerPhone" class="text-dark">phone</label>
+        </div>
+
+        <div class="form-floating mb-3">
+          <input type="password" class="form-control bg-transparent inp" id="registerPassword" placeholder="password"
+            required>
+          <label for="registerPassword" class="text-dark">Password</label>
+        </div>
+        <button type="submit">Register</button>
+      </div>
+    </form>
+
+    <!-- Overlay -->
+    <div class="overlay">
+      <h2>Hello, Friend!</h2>
+      <p>Don't have an account?</p>
+      <button onclick="showRegister()">Register</button>
+      <br>
+      <button onclick="showLogin()">Login</button>
+    </div>
+
+  </div>
+
+  <script src="javaScript/script.js"></script>
+
+</body>
+
+</html>
