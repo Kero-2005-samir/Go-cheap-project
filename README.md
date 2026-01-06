@@ -1,20 +1,20 @@
-![Django](https://img.shields.io/badge/Django-3.2-green) ![SQL Server](https://img.shields.io/badge/SQL%20Server-2019-blue) ![HTML5](https://img.shields.io/badge/HTML5-orange) ![CSS3](https://img.shields.io/badge/CSS3-blue) ![JavaScript](https://img.shields.io/badge/JavaScript-yellow) ![Bootstrap](https://img.shields.io/badge/Bootstrap-5-purple)
+![Django](https://img.shields.io/badge/Django-3.2-green) ![SQL Server](https://img.shields.io/badge/SQL%20Server-2019-blue) ![HTML5](https://img.shields.io/badge/HTML5-orange) ![CSS3](https://img.shields.io/badge/CSS3-blue) ![JavaScript](https://img.shields.io/badge/JavaScript-yellow)
 
 # Go Cheap 🚗💸
 
-**Go Cheap** is a web-based ride comparison platform designed to help users find the most affordable and suitable trip by comparing offers from multiple ride-hailing companies in one unified interface.
+*Go Cheap* is a web-based ride comparison platform designed to help users find the most affordable and suitable trip by comparing offers from multiple ride-hailing companies in one unified interface.
 
 ---
 
 ## 📌 Project Description
 
-In today’s fast-paced world, users often need to open multiple ride-hailing applications to compare prices, trip durations, and available drivers. **Go Cheap** solves this problem by collecting and displaying trip details from different companies in a single platform.
+In today’s fast-paced world, users often need to open multiple ride-hailing applications to compare prices, trip durations, and available drivers. *Go Cheap* solves this problem by collecting and displaying trip details from different companies in a single platform.
 
 The system allows users to register, log in, search for trips by selecting pickup and destination locations, and compare ride options from:
 
-* **Uber**
-* **inDrive**
-* **DiDi**
+* *Uber*
+* *inDrive*
+* *DiDi*
 
 Each option is presented clearly, enabling users to make an informed decision quickly and efficiently.
 
@@ -22,16 +22,16 @@ Each option is presented clearly, enabling users to make an informed decision qu
 
 ## 🔐 Authentication & Security
 
-* Secure **Login & Registration** system
+* Secure *Login & Registration* system
 * Session-based authentication
-* **Logout** functionality that safely redirects users back to the login page
+* *Logout* functionality that safely redirects users back to the login page
 
-### 🛡️ Backend Security
+### 🛡 Backend Security
 
-The backend is built using **Django**, which provides a high level of security by default, including:
+The backend is built using *Django*, which provides a high level of security by default, including:
 
-* Built-in protection against **SQL Injection**
-* **Cross-Site Request Forgery (CSRF)** protection
+* Built-in protection against *SQL Injection*
+* *Cross-Site Request Forgery (CSRF)* protection
 * Secure authentication and authorization mechanisms
 * Safe handling of user credentials and sessions
 
@@ -41,20 +41,20 @@ The backend is built using **Django**, which provides a high level of security b
 
 The website is structured into the following main sections:
 
-* **Home**: Introduction and overview of the platform
-* **Services**: Core functionality for trip search and comparison
-* **About**: Explanation of the project idea and objectives
-* **Contact**: Communication section
+* *Home*: Introduction and overview of the platform
+* *Services*: Core functionality for trip search and comparison
+* *About*: Explanation of the project idea and objectives
+* *Contact*: Communication section
 
 ---
 
 ## 🚕 Services – Trip Search & Comparison
 
-Within the **Services** section, users can:
+Within the *Services* section, users can:
 
-* Select a **Pickup Location**
-* Select a **Destination**
-* Click **Search** to retrieve available trip options
+* Select a *Pickup Location*
+* Select a *Destination*
+* Click *Search* to retrieve available trip options
 
 The system then displays available rides in a card-based layout for easy comparison.
 
@@ -77,15 +77,15 @@ Each card includes a button that redirects the user to the official website link
 
 ---
 
-## 🗄️ Database & Data Management
+## 🗄 Database & Data Management
 
-* **Microsoft SQL Server** is used as the primary Database Management System
+* *Microsoft SQL Server* is used as the primary Database Management System
 * Stores:
 
   * User accounts and authentication data
   * Trip-related data
   * User preferences and system records
-* Integrated seamlessly with **Django ORM** for secure and efficient data handling
+* Integrated seamlessly with *Django ORM* for secure and efficient data handling
 
 ---
 
@@ -113,9 +113,9 @@ Each card includes a button that redirects the user to the official website link
 
 ## 📘 User Manual
 
-A complete **User Manual** has been created and uploaded as a **PDF file** named:
+A complete *User Manual* has been created and uploaded as a *PDF file* named:
 
-**User Manual (PDF)**
+*User Manual (PDF)*
 
 The document includes detailed usage instructions and screenshots explaining how users interact with the system.
 
@@ -131,7 +131,7 @@ You can access the live demo of the project here:
 
 ## 🚀 Future Enhancements
 
-In future versions of **Go Cheap**, the following features can be added to improve the system:
+In future versions of *Go Cheap*, the following features can be added to improve the system:
 
 * Real-time API integration with ride-hailing companies
 * In-app trip booking without redirection
@@ -146,21 +146,21 @@ In future versions of **Go Cheap**, the following features can be added to impro
 
 ## 👥 Team Information
 
-**Team Name:** NULL POINTERS
+*Team Name:* NULL POINTERS
 
 ### Team Members & Roles
 
-* **Beshoy Karam** – Team Leader & Backend Developer
-* **Kerolous Samir** – Frontend Developer
-* **Ahd Montaser** – Database Engineer
-* **Ahmed Altigany** – UI/UX Designer
-* **Sherif Abd Almoaty** – Software Tester
+* *Beshoy Karam* – Team Leader & Backend Developer
+* *Kerolous Samir* – Frontend Developer
+* *Ahd Montaser* – Database Engineer
+* *Ahmed Altigany* – UI/UX Designer
+* *Sherif Abd Almoaty* – Software Tester
 
 ---
 
 ## 🎯 Project Objective
 
-The primary objective of **Go Cheap** is to:
+The primary objective of *Go Cheap* is to:
 
 * Help users find the most cost-effective ride
 * Eliminate the need to switch between multiple ride-hailing applications
