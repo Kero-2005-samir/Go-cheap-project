@@ -1,4 +1,4 @@
-![Django](https://img.shields.io/badge/Django-3.2-green) ![SQL Server](https://img.shields.io/badge/SQL%20Server-2019-blue) ![HTML5](https://img.shields.io/badge/HTML5-orange) ![CSS3](https://img.shields.io/badge/CSS3-blue) ![JavaScript](https://img.shields.io/badge/JavaScript-yellow)
+![Django](https://img.shields.io/badge/Django-3.2-green) ![SQL Server](https://img.shields.io/badge/SQL%20Server-2019-blue) ![HTML5](https://img.shields.io/badge/HTML5-orange) ![CSS3](https://img.shields.io/badge/CSS3-blue) ![JavaScript](https://img.shields.io/badge/JavaScript-yellow) ![Bootstrap](https://img.shields.io/badge/Bootstrap-5-purple)
 
 # Go Cheap 🚗💸
 
